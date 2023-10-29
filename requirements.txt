@@ -79,7 +79,6 @@ dash-html-components==2.0.0
 dash-table==5.0.0
 dask==2023.1.1
 datashader==0.14.4
-datashape==0.5.4
 debugpy==1.6.6
 decorator==5.1.1
 defusedxml==0.7.1

@@ -50,10 +50,6 @@ importlib-metadata==6.0.0
 importlib-resources==5.2.0
 ipykernel==6.19.2
 ipython==8.12.0
-ipython-genutils==0.2.0
-it-core-news-lg==3.7.0
-it-core-news-md==3.7.0
-it-core-news-sm==3.7.0
 jedi==0.18.1
 Jinja2==3.1.2
 joblib==1.1.1
@@ -127,7 +123,6 @@ pyxlsb==1.0.10
 PyYAML==6.0.1
 pyzmq==25.0.2
 regex==2023.10.3
-reportlab==4.0.6
 requests==2.29.0
 rich==13.3.5
 safetensors==0.4.0
@@ -141,7 +136,8 @@ smart-open==6.4.0
 smmap==5.0.0
 sniffio==1.2.0
 soupsieve==2.4
-spacy==3.7.2
+spacy>=3.0.0,<4.0.0
+https://github.com/explosion/spacy-models/releases/download/it_core_news_lg-3.7.0/it_core_news_lg-3.7.0-py3-none-any.whl
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 spacy-lookups-data==1.0.5
@@ -154,7 +150,6 @@ terminado==0.17.1
 textnets==0.9.3
 texttable==1.7.0
 thinc==8.2.1
-thinc-apple-ops==0.1.4
 threadpoolctl==2.2.0
 tinycss2==1.2.1
 tokenizers==0.14.1

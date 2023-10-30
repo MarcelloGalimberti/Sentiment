@@ -19,7 +19,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import plotly.express as px
 import requests
 import io
-#import cairocffi as cairo
+import cairo
 
 
 pd.set_option('display.max_colwidth', None)
@@ -113,7 +113,7 @@ fig_tab = px.bar(df_chart, x = 'Post', y = 'Predicted_sentiment', color = 'Predi
 st.plotly_chart(fig_tab, use_container_width=True)
 
 # ### Natural Language Processing | SpaCy
-nlp = spacy.load('it_core_news_lg')
+nlp = spacy.load('it_core_news_sm') # vs lg
 spacy_stopwords = spacy.lang.it.stop_words.STOP_WORDS
 
 # Crea stopword set personalizzato

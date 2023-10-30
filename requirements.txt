@@ -137,7 +137,9 @@ smmap==5.0.0
 sniffio==1.2.0
 soupsieve==2.4
 spacy>=3.0.0,<4.0.0
-https://github.com/explosion/spacy-models/releases/download/it_core_news_sm-3.7.0/it_core_news_sm-3.7.0-py3-none-any.whl
+it_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/it_core_news_sm-3.7.0/it_core_news_sm-3.7.0-py3-none-any.whl
+it_core_news_md @ https://github.com/explosion/spacy-models/releases/download/it_core_news_md-3.7.0/it_core_news_md-3.7.0-py3-none-any.whl
+it_core_news_lg @ https://github.com/explosion/spacy-models/releases/download/it_core_news_lg-3.7.0/it_core_news_lg-3.7.0-py3-none-any.whl
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 spacy-lookups-data==1.0.5

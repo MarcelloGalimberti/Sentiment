@@ -48,9 +48,6 @@ importlib-resources==5.2.0
 ipykernel==6.19.2
 ipython==8.12.0
 ipython-genutils==0.2.0
-it-core-news-lg==3.7.0
-it-core-news-md==3.7.0
-it-core-news-sm==3.7.0
 jedi==0.18.1
 Jinja2==3.1.2
 joblib==1.1.1

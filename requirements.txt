@@ -27,7 +27,6 @@ huggingface-hub==0.17.3
 idna==3.4
 importlib-metadata==6.8.0
 importlib-resources==6.1.1
-it-core-news-lg==3.7.0
 Jinja2==3.1.2
 jsonschema==4.19.2
 jsonschema-specifications==2023.7.1
@@ -72,6 +71,7 @@ smart-open==6.4.0
 smmap==5.0.1
 soupsieve==2.5
 spacy==3.7.0
+https://github.com/explosion/spacy-models/releases/download/it_core_news_lg-3.7.0/it_core_news_lg-3.7.0-py3-none-any.whl
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 spacy-streamlit==1.0.6

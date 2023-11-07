@@ -20,6 +20,7 @@ import plotly.express as px
 import requests
 import io
 import networkx as nx
+import scipy as sp
 #from pyvis.network import Network
 
 #pd.set_option('display.max_colwidth', None)
@@ -115,15 +116,17 @@ st.plotly_chart(fig_tab, use_container_width=True)
 # ### Natural Language Processing | SpaCy
 
 # mesa funzione e decorazione
-#@st.cache_data()
-#def carica_lingua (lingua):
-#    nlp = spacy.load(lingua) # vs lg
-#    #spacy_stopwords = spacy.lang.it.stop_words.STOP_WORDS # indagare qui
-#    return nlp
+@st.cache_data()
+def carica_lingua (lingua):
+    nlp = spacy.load(lingua) # vs lg
+    #spacy_stopwords = spacy.lang.it.stop_words.STOP_WORDS # indagare qui
+    return nlp
 lingua = 'it_core_news_lg'
-nlp = spacy.load(lingua)
+#nlp = spacy.load(lingua)
 
-#nlp=carica_lingua(lingua)
+nlp=carica_lingua(lingua)
+
+
 spacy_stopwords = spacy.lang.it.stop_words.STOP_WORDS # indagare qui
 
 # Crea stopword set personalizzato

@@ -22,7 +22,7 @@ import io
 import networkx as nx
 #from pyvis.network import Network
 
-pd.set_option('display.max_colwidth', None)
+#pd.set_option('display.max_colwidth', None)
 
 col_7, col_8 = st.columns([1,6])
 

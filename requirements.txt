@@ -10,6 +10,7 @@ spacy
 wordcloud
 plotly-express
 networkx
+scipy
 scikit-learn
 collections
 feel-it

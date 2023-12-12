@@ -12,7 +12,6 @@ plotly-express
 networkx
 scipy
 scikit-learn
-collections
 feel-it
 openpyxl
 matplotlib-inline
